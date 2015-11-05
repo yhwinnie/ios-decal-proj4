@@ -1,16 +1,16 @@
 #    •   Story your pictures 
 ##    •   Winnie Wen
-	    •	n/a
+ 	    •	n/a
 ##    •	Purpose
-	    •	Allow users to post a set of pictures and from the set of pictures, other users can write their own stories (it can be funny, sad, romantic, etc).
+ 	    •	Allow users to post a set of pictures and from the set of pictures, other users can write their own stories (it can be funny, sad, romantic, etc).
 ##    •	Features
-	    •	Ability to post set of pictures
-	    •	Ability to view the pictures and edit it by writing stories
-	    •	Ability for different users to read different versions of the same set of stories posted by other users.
-	    •	Ability for readers to comment on stories
-	    •	Ability to like stories
-	    •	Ability to share stories
-	    •	Ability to view trending stories
+ 	    •	Ability to post set of pictures
+ 	    •	Ability to view the pictures and edit it by writing stories
+ 	    •	Ability for different users to read different versions of the same set of stories posted by other users.
+ 	    •	Ability for readers to comment on stories
+ 	    •	Ability to like stories
+ 	    •	Ability to share stories
+ 	    •	Ability to view trending stories
 ##    •	Control Flow
 	    •	A front page for today’s trending stories and another tab on the same page for users to look at set of pictures that are trending.
 	    •	If user clicks on the edit button on the pictures, it will lead users to login if not already logged in. Once logged in, users can start editing and share.
