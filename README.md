@@ -1,7 +1,7 @@
 #    •   Story your pictures 
 ##    •   Winnie Wen
 ######..        •   n/a
-##    •	Purpose
+##      •	Purpose
 ######            •	Allow users to post a set of pictures and from the set of pictures, other users can write their own stories (it can be funny, sad, romantic, etc).
 ##    •	Features
 ###### 	    •	Ability to post set of pictures
