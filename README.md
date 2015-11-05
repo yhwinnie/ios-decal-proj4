@@ -3,7 +3,7 @@
     •   Winnie Wen
 	    •	n/a
     •	Purpose
-	    •	Allow users to post a set of pictures and from the set of 	                    pictures, other users can write their own stories (it can be funny,             sad, romantic, etc).
+	    •	Allow users to post a set of pictures and from the set of pictures, other users can write their own stories (it can be funny, sad, romantic, etc).
     •	Features
 	    •	Ability to post set of pictures
 	    •	Ability to view the pictures and edit it by writing stories
