@@ -25,14 +25,14 @@
 * 		    	pictures.swift (to store your pictures for this post into a list)
 * 		    	stories.swift (to store you edited stories)
 
-###	    •	View
+    ###	    •	View
 * 		    	TrendingListTableView
 * 		    	HomepageView
 * 		    	EditView
 * 		    	viewStoryView
 * 		    	LoginView
 
-###		•	Controller
+    ###		•	Controller
 * 		    	TrendingListTableViewController
 * 		    	HomepageViewController
 * 		    	EditViewController
