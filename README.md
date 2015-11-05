@@ -1,5 +1,6 @@
 #    •   Story your pictures 
-##    •   Winnie Wen
+* ##    •   Winnie Wen
+
 *        n/a
 
 ##    •	Purpose
