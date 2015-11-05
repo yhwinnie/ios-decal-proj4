@@ -32,7 +32,7 @@ Implementation:
         - HomepageViewController
         - EditViewController
         - viewStoryViewController
-        - loginViewController
+        - loginViewControllers
 
 
 
