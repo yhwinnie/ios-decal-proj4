@@ -20,11 +20,24 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     var locationManager: CLLocationManager!
     let searchRadius: CLLocationDistance = 2000
     
+    let location1 = CLLocationCoordinate2D(
+        latitude: 51.481188400000010000,
+        longitude: -0.190209099999947280
+    )
+    
     let initialLocation = CLLocation(latitude: 49.140838, longitude: -123.127886)
     var points: [CLLocationCoordinate2D] = [CLLocationCoordinate2D]()
+    //let annotation1: CustomPointAnnotation = CustomPointAnnotation()
     
+    let annotation1: CustomPointAnnotation = CustomPointAnnotation()
+
+    
+    var annotations = [MKPointAnnotation]()
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         //For Location 1
         let location1 = CLLocationCoordinate2D(
@@ -33,7 +46,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         )
         self.mapView.delegate = self
         
-        let annotation1: CustomPointAnnotation = CustomPointAnnotation()
+        //annotation1 = CustomPointAnnotation()
         annotation1.coordinate = location1;
         annotation1.title = "Hangry Bird"
         annotation1.subtitle = "Hangry Bird's location"
@@ -83,6 +96,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         if overlay is MKPolyline {
             var polylineRenderer = MKPolylineRenderer(overlay: overlay)
             polylineRenderer.strokeColor = UIColor.blueColor()
+            polylineRenderer.alpha = 0.7
             polylineRenderer.lineWidth = 5
             return polylineRenderer
             
@@ -125,6 +139,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         //pointAnnotation.pinCustomImageName = "food.png"
         points.append(location)
         
+        annotations.append(pointAnnotation)
+        
         self.mapView.addAnnotation(pointAnnotation)
         self.mapView?.selectAnnotation(pointAnnotation, animated: true)
         var polyline = MKPolyline(coordinates:&points, count: points.count)
@@ -132,6 +148,15 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         
     }
+    
+    @IBAction func startButton(sender: AnyObject) {
+        for annotation in mapView.annotations {
+            print(annotation.coordinate)
+            
+            annotation1.coordinate = annotation.coordinate
+        }
+    }
+    
     func mapView (mapView: MKMapView,
         viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
             

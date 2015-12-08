@@ -19,19 +19,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Gop-YW-o9K">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="49" width="600" height="551"/>
                                 <animations/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="dmq-tB-sWN"/>
                                 </connections>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xb8-xu-Yrx">
+                                <rect key="frame" x="283" y="11" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6qT-pV-kjg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Gop-YW-o9K" secondAttribute="trailing" constant="-20" id="9TV-t0-kol"/>
+                            <constraint firstItem="Xb8-xu-Yrx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-9" id="RoJ-rd-XHN"/>
+                            <constraint firstItem="Gop-YW-o9K" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="Wpy-48-s0p"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gop-YW-o9K" secondAttribute="bottom" id="bvA-xk-LZM"/>
-                            <constraint firstItem="Gop-YW-o9K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="gvg-R5-Oef"/>
+                            <constraint firstItem="Gop-YW-o9K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ehK-ku-Jta"/>
+                            <constraint firstItem="Xb8-xu-Yrx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rzN-Mp-121"/>
                             <constraint firstItem="Gop-YW-o9K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="xTw-cq-VFT"/>
                         </constraints>
                     </view>

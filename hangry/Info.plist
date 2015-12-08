@@ -28,6 +28,8 @@
 	<string>Main</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>To know Hangry Bird&apos;s Location!</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>To Update Hangry Bird&apos;s Location!</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
