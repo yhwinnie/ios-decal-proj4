@@ -12,7 +12,7 @@
 ##    •	Control Flow
 * 	    	It will display a map on the first page
 *			Hangry bird will start from the current location 
-* 			All other pins on the map are #Icecream tags from Instagram API/ or other APIs 
+* 			All other pins on the map are #Icecream tags from the search on the mapKit
 
 
 ##    •	Implementation
@@ -23,9 +23,8 @@
 
 ###	    •	View
 * 		    	MapView
-* 		    	EndingGameScoreView
 
 
 ###		•	Controller
-* 		    	MapViewController
-* 		    	EndingGameScoreViewController
+* 		    	ViewController
+
