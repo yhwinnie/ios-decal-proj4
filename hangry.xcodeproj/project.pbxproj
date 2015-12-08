@@ -19,6 +19,8 @@
 		4C0702FD1C12EC3A008820BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0702FB1C12EC3A008820BB /* LaunchScreen.storyboard */; };
 		4C0703081C12EC3A008820BB /* hangryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0703071C12EC3A008820BB /* hangryTests.swift */; };
 		4C0703131C12EC3A008820BB /* hangryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0703121C12EC3A008820BB /* hangryUITests.swift */; };
+		4CCB2F381C16997600FB368F /* angry-bird-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCB2F371C16997600FB368F /* angry-bird-icon.png */; };
+		4CCB2F3E1C169F8B00FB368F /* ice_cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCB2F3D1C169F8B00FB368F /* ice_cream.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		4C07030E1C12EC3A008820BB /* hangryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hangryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0703121C12EC3A008820BB /* hangryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangryUITests.swift; sourceTree = "<group>"; };
 		4C0703141C12EC3A008820BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCB2F371C16997600FB368F /* angry-bird-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angry-bird-icon.png"; sourceTree = "<group>"; };
+		4CCB2F3D1C169F8B00FB368F /* ice_cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice_cream.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		4C0702E61C12EC3A008820BB = {
 			isa = PBXGroup;
 			children = (
+				4CCB2F3D1C169F8B00FB368F /* ice_cream.png */,
 				4C0197371C13C1F600B63ECD /* piazza.jpg */,
 				4C0702F11C12EC3A008820BB /* hangry */,
 				4C0703061C12EC3A008820BB /* hangryTests */,
@@ -110,6 +115,7 @@
 			children = (
 				4C0702F21C12EC3A008820BB /* AppDelegate.swift */,
 				4C0702F41C12EC3A008820BB /* ViewController.swift */,
+				4CCB2F371C16997600FB368F /* angry-bird-icon.png */,
 				4C01973B1C13E11900B63ECD /* food.png */,
 				4C0197391C13E06C00B63ECD /* pizza-pin.png */,
 				4C0197351C13BE7300B63ECD /* CustomPointAnnotation.swift */,
@@ -244,7 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCB2F3E1C169F8B00FB368F /* ice_cream.png in Resources */,
 				4C0197381C13C1F600B63ECD /* piazza.jpg in Resources */,
+				4CCB2F381C16997600FB368F /* angry-bird-icon.png in Resources */,
 				4C0702FD1C12EC3A008820BB /* LaunchScreen.storyboard in Resources */,
 				4C01973A1C13E06C00B63ECD /* pizza-pin.png in Resources */,
 				4C01973C1C13E11900B63ECD /* food.png in Resources */,
